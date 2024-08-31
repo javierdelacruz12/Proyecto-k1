@@ -6,7 +6,8 @@ class UsersRunner {
     
     @Karate.Test
     Karate testUsers() {
-        return Karate.run("users").relativeTo(getClass());
+
+        return Karate.run("classpath:CursoKarate/05userDetailsJson.feature").tags("@test001");
     }    
 
 }
