@@ -7,7 +7,7 @@ class UsersRunner {
     @Karate.Test
     Karate testUsers() {
 
-        return Karate.run("classpath:examples/CursoKarate/06featureChild.feature").tags("@test002");
+        return Karate.run("classpath:examples/CursoKarate/07jsonCheck.feature").tags("@test003");
     }    
 
 }
