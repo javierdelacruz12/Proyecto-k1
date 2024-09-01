@@ -1,1 +1,5 @@
+1-Para ejecutar por el terminal
 mvn clean test -Dtest=UsersRunner
+
+2-Combinación de teclas para formatear el código en IntelliJ IDEA:
+Windows/Linux: Ctrl + Alt + L
